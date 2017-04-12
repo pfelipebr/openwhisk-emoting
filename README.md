@@ -19,7 +19,10 @@ Built using the IBM Bluemix, the application uses:
 
 No runtime to deploy, no server to manage :)
 
-![Architecture](http://g.gravizo.com/svg?
+![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Fmaster%2FREADME.md)
+<details> 
+<summary></summary>
+custom_mark10
   digraph G {
     node [fontname = "helvetica"]
     rankdir=LR
@@ -30,7 +33,9 @@ No runtime to deploy, no server to manage :)
     openwhisk [shape=circle style=filled color="%2324B643" fontcolor=white label="OpenWhisk"]
     cloudant [shape=circle style=filled color="%234E96DB" fontcolor=white label="Cloudant"]
   }
-)
+custom_mark10
+</details>
+
 
 ## Application Requirements
 
