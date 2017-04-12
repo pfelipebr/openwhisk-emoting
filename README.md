@@ -24,14 +24,19 @@ No runtime to deploy, no server to manage :)
 <summary></summary>
 custom_mark10
   digraph G {
-    node [fontname = "helvetica"]
-    rankdir=LR
-    user -> github
-    github -> openwhisk [label="API Calls"]
-    openwhisk -> cloudant
-    github [shape=circle style=filled color="%234E96DB" fontcolor=white label="GitHub Pages"]
-    openwhisk [shape=circle style=filled color="%2324B643" fontcolor=white label="OpenWhisk"]
-    cloudant [shape=circle style=filled color="%234E96DB" fontcolor=white label="Cloudant"]
+    aize ="4,4";
+    main [shape=box];
+    main -> parse [weight=8];
+    parse -> execute;
+    main -> init [style=dotted];
+    main -> cleanup;
+    execute -> { make_string; printf};
+    init -> make_string;
+    edge [color=blue];
+    main -> printf [style=bold,label="100 times"];
+    make_string [label="faca string"];
+    node [shape=box,style=filled,color=".7 .3 1.0"];
+    execute -> compare;
   }
 custom_mark10
 </details>
