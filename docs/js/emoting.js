@@ -1,4 +1,4 @@
-const apiUrl = 'https://615e61d8-2e8e-4040-9a0b-037961414d44-gws.api-gw.mybluemix.net/emoting/1';
+const apiUrl = 'https://f60f1c93-d821-49d9-b423-c053fb23b7a1-gws.api-gw.mybluemix.net/emoting/1';
 const ratingChoices = ['verygood', 'good', 'bad', 'verybad'];
 const emoting = {
   create(questionTitle) {
