@@ -19,10 +19,10 @@ Built using the IBM Bluemix, the application uses:
 
 No runtime to deploy, no server to manage :)
 
-![Alt text](https://g.gravizo.com/source/custom_felipe?https%3A%2F%2Fraw.githubusercontent.com%2Fpfelipebr%2Fopenwhisk-emoting%2Fmaster%2FREADME.md)
+![Alt text](https://g.gravizo.com/source/custom_felipe2?https%3A%2F%2Fraw.githubusercontent.com%2Fpfelipebr%2Fopenwhisk-emoting%2Fmaster%2FREADME.md)
 <details> 
 <summary></summary>
-custom_felipe
+custom_felipe2
   digraph G {
     node [fontname = "helvetica"];
     rankdir=LR;
@@ -33,7 +33,7 @@ custom_felipe
     openwhisk [shape=circle style=filled color="%2324B643" fontcolor=white label="OpenWhisk"];
     cloudant [shape=circle style=filled color="%234E96DB" fontcolor=white label="Cloudant"];
   }
-custom_felipe
+custom_felipe2
 </details>
 
 
