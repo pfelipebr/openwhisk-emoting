@@ -19,10 +19,10 @@ Built using the IBM Bluemix, the application uses:
 
 No runtime to deploy, no server to manage :)
 
-![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Fmaster%2FREADME.md)
+![Alt text](https://g.gravizo.com/source/custom_felipe?https%3A%2F%2Frgithub.com%2Fpfelipebr%2Fopenwhisk-emoting)
 <details> 
 <summary></summary>
-custom_mark10
+custom_felipe
   digraph G {
     aize ="4,4";
     main [shape=box];
@@ -32,13 +32,13 @@ custom_mark10
     main -> cleanup;
     execute -> { make_string; printf};
     init -> make_string;
-    edge [color=blue];
+    edge [color=red];
     main -> printf [style=bold,label="100 times"];
-    make_string [label="faca string"];
+    make_string [label=“marca a string"];
     node [shape=box,style=filled,color=".7 .3 1.0"];
     execute -> compare;
   }
-custom_mark10
+custom_felipe
 </details>
 
 
