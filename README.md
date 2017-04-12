@@ -19,7 +19,7 @@ Built using the IBM Bluemix, the application uses:
 
 No runtime to deploy, no server to manage :)
 
-![Alt text](https://g.gravizo.com/source/custom_felipe?https%3A%2F%2Frgithub.com%2Fpfelipebr%2Fopenwhisk-emoting)
+![Alt text](https://g.gravizo.com/source/custom_felipe?https%3A%2F%2Frgithub.com%2Fpfelipebr%2Fopenwhisk-emoting%2Fblob%2Fmaster%2FREADME.md)
 <details> 
 <summary></summary>
 custom_felipe
