@@ -19,24 +19,19 @@ Built using the IBM Bluemix, the application uses:
 
 No runtime to deploy, no server to manage :)
 
-![Alt text](https://g.gravizo.com/source/custom_felipe?https%3A%2F%2Frgithub.com%2Fpfelipebr%2Fopenwhisk-emoting%2Fblob%2Fmaster%2FREADME.md)
+![Alt text](https://g.gravizo.com/source/custom_felipe?https%3A%2F%2Fraw.githubusercontent.com%2Fpfelipebr%2Fopenwhisk-emoting%2Fmaster%2FREADME.md)
 <details> 
 <summary></summary>
 custom_felipe
   digraph G {
-    aize ="4,4";
-    main [shape=box];
-    main -> parse [weight=8];
-    parse -> execute;
-    main -> init [style=dotted];
-    main -> cleanup;
-    execute -> { make_string; printf};
-    init -> make_string;
-    edge [color=red];
-    main -> printf [style=bold,label="100 times"];
-    make_string [label=“marca a string"];
-    node [shape=box,style=filled,color=".7 .3 1.0"];
-    execute -> compare;
+    node [fontname = "helvetica"];
+    rankdir=LR;
+    user -> github;
+    github -> openwhisk [label="API Calls"];
+    openwhisk -> cloudant;
+    github [shape=circle style=filled color="%234E96DB" fontcolor=white label="GitHub Pages"];
+    openwhisk [shape=circle style=filled color="%2324B643" fontcolor=white label="OpenWhisk"];
+    cloudant [shape=circle style=filled color="%234E96DB" fontcolor=white label="Cloudant"];
   }
 custom_felipe
 </details>
