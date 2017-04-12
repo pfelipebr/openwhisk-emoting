@@ -19,7 +19,7 @@ Built using the IBM Bluemix, the application uses:
 
 No runtime to deploy, no server to manage :)
 
-![Architecture](http://g.gravizo.com/g?
+![Architecture](http://g.gravizo.com/svg?
   digraph G {
     node [fontname = "helvetica"]
     rankdir=LR
